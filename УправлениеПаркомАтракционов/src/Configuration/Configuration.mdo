@@ -47,16 +47,22 @@
   <roles>Role.Кассир</roles>
   <roles>Role.ОператорАттракциона</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
+  <constants>Constant.МаксимльнаяДоляОплатыБаллами</constants>
   <catalogs>Catalog.Аттрационы</catalogs>
   <catalogs>Catalog.ВидыАттракционов</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
   <documents>Document.УстановкаЦенНоменклауры</documents>
+  <documents>Document.ШкалаБонуснойПрограммы</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ПродажиПоАттракцижжоном</reports>
   <reports>Report.СтатистикаПосещений</reports>
+  <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограмы</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
