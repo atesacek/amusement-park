@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Код</name>
     <id>1</id>
@@ -14,11 +14,6 @@
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -29,11 +24,6 @@
     <contextMenu>
       <name>КодКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -64,11 +54,6 @@
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
       <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -79,11 +64,6 @@
     <contextMenu>
       <name>НаименованиеКонтекстноеМеню</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -114,11 +94,6 @@
     <extendedTooltip>
       <name>ВидАттракционаРасширеннаяПодсказка</name>
       <id>9</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -129,11 +104,6 @@
     <contextMenu>
       <name>ВидАттракционаКонтекстноеМеню</name>
       <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -165,11 +135,6 @@
     <extendedTooltip>
       <name>АдресФотоРасширеннаяПодсказка</name>
       <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -191,11 +156,6 @@
         <extendedTooltip>
           <name>АдресФотоКонтекстноеМенюОчиститьФотоРасширеннаяПодсказка</name>
           <id>14</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -210,11 +170,6 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>PictureField</type>
@@ -237,17 +192,15 @@
         <key>ru</key>
         <value>Нажмите, чтобы выбрать картинку</value>
       </nonselectedPictureText>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
       <fileDragMode>AsFileRef</fileDragMode>
     </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
