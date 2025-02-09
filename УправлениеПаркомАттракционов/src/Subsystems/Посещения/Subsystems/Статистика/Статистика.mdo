@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fda6a86-2aef-4e98-9c34-e976b03daa8f">
+  <name>Статистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.СтатистикаПосещений</content>
+  <content>Report.ПопулярныеАттракционы</content>
+  <parentSubsystem>Subsystem.Посещения</parentSubsystem>
+</mdclass:Subsystem>

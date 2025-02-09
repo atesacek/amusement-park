@@ -206,6 +206,9 @@
     <mdObject>Catalog.ПредопределенныеВариантыОтчетовРасширений</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.АттракционыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
   </content>
   <content>
@@ -314,6 +317,9 @@
     <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.СтраныМира</mdObject>
   </content>
   <content>
@@ -390,6 +396,9 @@
   </content>
   <content>
     <mdObject>Constant.НеИспользоватьРазделениеПоОбластямДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
@@ -564,6 +573,9 @@
   </content>
   <content>
     <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПродажаБилетаПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.СинхронизироватьФайлы</mdObject>

@@ -9,7 +9,11 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПродажаБилетаПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
+    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

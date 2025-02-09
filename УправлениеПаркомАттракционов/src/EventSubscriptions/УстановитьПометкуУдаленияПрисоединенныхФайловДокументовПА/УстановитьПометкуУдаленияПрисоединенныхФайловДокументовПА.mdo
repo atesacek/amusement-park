@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2fe7cef-2f14-425b-baf0-104a4a469262">
+  <name>УстановитьПометкуУдаленияПрисоединенныхФайловДокументовПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов (Парк аттракционов)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПродажаБилета</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>
