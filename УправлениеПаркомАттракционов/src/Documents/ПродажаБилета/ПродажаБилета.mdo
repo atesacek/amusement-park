@@ -287,4 +287,13 @@
       <value>Реклама</value>
     </synonym>
   </templates>
+  <commands uuid="e87d9fde-f436-4fbf-ad21-664e23cb0e97">
+    <name>СписокПродажиБилетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа билета</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
