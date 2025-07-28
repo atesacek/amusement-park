@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e01cf06-c47d-4d37-9e0e-4c3420ad97b0">
+  <producedTypes>
+    <objectType typeId="2786806f-46d4-45be-8558-b7670a7a12a0" valueTypeId="5a5a412c-1bbb-4158-bb5e-35e28023050e"/>
+  </producedTypes>
+  <name>ПечатьБилета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать билета</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="28403196-e861-4634-a8ac-a7f959682a22"/>
+  <defaultForm>ExternalDataProcessor.ПечатьБилета.Form.Форма</defaultForm>
+  <forms uuid="b7caae2e-ad95-4483-9ce5-205a11567551">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2bd6b99a-74e1-4b3d-9d36-3f1d24150536">
+    <name>ПФ_MXL_Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

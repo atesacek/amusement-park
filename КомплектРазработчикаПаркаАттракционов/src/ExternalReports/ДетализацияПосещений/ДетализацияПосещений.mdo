@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b414d742-0658-4f04-b2dd-a17f35baf460">
+  <producedTypes>
+    <objectType typeId="ccab0e83-0ab4-4052-bdb6-d4d1a5a4cb98" valueTypeId="01d8d7e4-25a7-4ed7-8384-bb8515df8fb1"/>
+  </producedTypes>
+  <name>ДетализацияПосещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализация посещений (Внешний)</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="e4b74204-14e5-4344-b9c3-03dbaa27ff26"/>
+  <mainDataCompositionSchema>ExternalReport.ДетализацияПосещений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="f5d6032f-2a09-4d54-8c79-a854b798c10a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
