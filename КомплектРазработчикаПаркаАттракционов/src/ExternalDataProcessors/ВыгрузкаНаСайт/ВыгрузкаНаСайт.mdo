@@ -19,4 +19,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="70ab6dbd-84e0-4a18-a56b-1041d87e9d85">
+    <name>НастройкаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>
