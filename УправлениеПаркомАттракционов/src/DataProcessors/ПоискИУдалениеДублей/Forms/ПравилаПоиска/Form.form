@@ -882,6 +882,10 @@
       <stringQualifiers/>
     </valueType>
   </parameters>
+  <parameters>
+    <name>ОписаниеПрикладныхПравил</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

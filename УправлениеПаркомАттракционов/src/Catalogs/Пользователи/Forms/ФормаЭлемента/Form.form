@@ -4755,6 +4755,28 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВидКонтактнойИнформацииEmailПользователя</name>
+    <id>59</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидКонтактнойИнформацииТелефонПользователя</name>
+    <id>60</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьТолькоВыбранныеРоли</name>
     <title>

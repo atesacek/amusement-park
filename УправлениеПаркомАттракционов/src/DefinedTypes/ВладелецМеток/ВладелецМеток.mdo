@@ -9,6 +9,9 @@
     <value>Владелец меток</value>
   </synonym>
   <type>
-    <types>CatalogRef.Номенклатура</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
   </type>
 </mdclass:DefinedType>
